@@ -1,3 +1,4 @@
+//ถ้าหากจะเปลี่ยนSpreadsheetของ exelให้เปลี่ยน ID ตรง openbyid
 function getDataSheet() {
 var ss = SpreadsheetApp.openById('1O-LT4nvnCIYAiLPfL5WT90szIJzjppdxxzT03-83yfA').getActiveSheet()
 var data= ss.getDataRange().getDisplayValues()
@@ -32,6 +33,7 @@ function processForm2(formObject){
   return result;
 }
 
+//ถ้าหากจะเปลี่ยนSpreadsheetของ exelให้เปลี่ยน ID ตรง openbyid และชื่อของgetSheetByNameด้านล่างด้วย "ตย.แผ่นงาน1"
 function save(user){
   var ss= SpreadsheetApp.openById('1O-LT4nvnCIYAiLPfL5WT90szIJzjppdxxzT03-83yfA');
   var ws = ss.getSheetByName("receiverFiles");
@@ -50,6 +52,7 @@ function processForm(formObject){
   return result;
 }
 
+//ถ้าหากจะเปลี่ยนSpreadsheetของ exelให้เปลี่ยน ID ตรง openbyid และชื่อของgetSheetByNameด้านล่างด้วย "ตย.แผ่นงาน1"
 function search(searchtext){
   var spreadsheetId = '1O-LT4nvnCIYAiLPfL5WT90szIJzjppdxxzT03-83yfA';
   var dataRage  = 'Backup!A2:H';
