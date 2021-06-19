@@ -1,0 +1,11 @@
+<script>
+document.getElementById("btn").addEventListener("click",save)
+  function save(){
+    var user = {};
+    user.data1= document.getElementById("searchtext").value;
+    google.script.run.save(user);
+    document.getElementById("searchtext").value="";
+   
+  }
+
+</script>
