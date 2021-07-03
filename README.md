@@ -1,4 +1,4 @@
-# project-TGF8A installation guide
+# Fire extinguisher installation guide
 1.Open google App script  
 2.Click "Start Scripting"  
 3.Click "new project"  
